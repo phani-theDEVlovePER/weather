@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagebg {
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  -webkit-transition: background 0s;
+  -moz-transition: background 0s;
+  -o-transition: background 0s;
+  transition: background 0s;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  scroll-behavior: smooth;
+}
+
+.glassbg {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+}
